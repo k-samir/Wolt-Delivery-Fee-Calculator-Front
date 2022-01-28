@@ -1,0 +1,23 @@
+{
+  "name": "wolt-delivery-fee-calculator-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-samir/Wolt-Delivery-Fee-Calculator-Front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-samir/Wolt-Delivery-Fee-Calculator-Front/issues"
+  },
+  "homepage": "https://github.com/k-samir/Wolt-Delivery-Fee-Calculator-Front#readme"
+}
