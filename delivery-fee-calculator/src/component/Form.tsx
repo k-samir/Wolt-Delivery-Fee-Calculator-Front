@@ -20,7 +20,7 @@ export default function Form() {
             </fieldset>
             <fieldset>
                 <label htmlFor="time">Time</label>
-                <input id="time" type="date"></input>
+                <input id="time" type="datetime-local"></input>
             </fieldset>
             <button type="submit">Calculate delivery price</button>
         </form>
@@ -33,11 +33,11 @@ const sendForm = async (event: FormEvent<HTMLFormElement>) => {
 
     const { cartValue, deliveryDistance, amountItems, time } = event.target as typeof event.target & {
         cartValue: { value: number }
-        deliveryDistance: { value: string }
-        amountItems: { value: string }
+        deliveryDistance: { value: number }
+        amountItems: { value: number }
         time: { value: string }
     }
-
+    
     await fetch('http://localhost:8080/deliveryFee', {
 
         method: 'POST',
@@ -46,7 +46,7 @@ const sendForm = async (event: FormEvent<HTMLFormElement>) => {
             "value": (cartValue.value * 100),
             "delivery_distance": deliveryDistance.value,
             "number_of_items": amountItems.value,
-            "time": time.value
+            "time": time.value + ":00Z"
         })
     })
         .then(response => response.json())
