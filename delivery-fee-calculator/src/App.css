@@ -1,0 +1,105 @@
+.wrap{
+  --shadow:5px 5px 10 px rgba(0,0,0,0.4);
+  --radius: 20px;
+
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.App {
+  
+  text-align: center;
+  background: linear-gradient(#00C2E8,#009DE0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+label {
+  display: inline-block;
+  width: 10rem;
+  text-align: left;
+  font-size:1.5rem;
+  
+ }
+
+
+fieldset{
+  text-align: start;
+  border:0;
+  display: flex;
+  align-items: center;
+  height:3rem;
+}
+
+
+
+input {
+  height:1.5rem;
+  margin-left:1rem;
+  margin-right:1rem;
+
+}
+
+button{
+  appearence:none;
+  border:none;
+  color:white;
+  background-color: #00C2E8;
+  border-radius:var(--radius);
+  box-shadow: var(--shadow);
+  width:95%;
+  padding:0.75rem 1rem;
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:bold;
+  font-family: "Omnes";
+}
+
+button:hover {
+  padding-right: 20px;
+  background-color: #009DE0;
+}
+
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.Wolt-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-top:1rem;
+}
+
+.title{
+  color:black;
+  margin:1rem 0rem 2rem;
+  font-size:3rem;
+}
+
+footer{
+  display: inline-flex;
+  padding:0.5rem;
+  align-items: center;
+
+}
+footer>p{
+  margin-right:1rem;
+}
+footer>a>img{
+  margin:0.5rem;
+  max-height: 2.5rem;
+  margin-bottom:1.25rem;
+}
+
+
+
