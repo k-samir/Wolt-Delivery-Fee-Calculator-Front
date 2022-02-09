@@ -46,3 +46,6 @@ Build a delivery fee calculator app which calculates a delivery fee based on use
 
 ![Example user interface](https://github.com/woltapp/engineering-summer-intern-2022/blob/master/example-ui.png?raw=true)
 
+## Authors
+- [Samir KAMAR](https://github.com/k-samir)
+
