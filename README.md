@@ -1,6 +1,6 @@
 # Wolt-Delivery-Fee-Calculator-Front
 <p align="center">
-<img src="./final_output.png"/>
+<img src="./final_output.png" width=300/>
 </p>
 
 ## Installation and Setup Instructions
